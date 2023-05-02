@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(33, 37, 41);
+}
+nav h1 {
+  line-height: 0.5;
+}
+.icons {
+  width: 64px;
+  height: 64px;
+}
+#tempDegree {
+  font-size: 72px;
+}
+.custom-nav-item a {
+  color: white;
+  padding: 5px 50px;
+  text-decoration: none;
+}
+.activated {
+  color: rgb(5, 162, 218);
+  border: 1px solid rgb(5, 162, 218);
+}
+.custom-nav-item:hover a {
+  color: rgb(5, 162, 218);
+  border: 1px solid rgb(5, 162, 218);
+}
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/1540010.jpg);
+  height: 100vh;
+  padding-top: 150px;
+}
+footer {
+  padding: 50px;
+}
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: skyblue;
+}
+sub {
+  vertical-align: top;
+}
+#weather h1 {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact input {
+  width: 48%;
+  display: inline-block;
+
+}
+#contact textarea {
+  resize: unset;
+  padding: 10px 20px;
+}

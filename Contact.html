@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-xl bg-dark bg-opacity-75 p-3">
+        <div class="container">
+          <a
+            class="navbar-brand d-flex justify-content-center align-items-center text-light"
+            href="#"
+            ><img
+              src="/images/img1.png"
+              class="img-fluid d-inline-block"
+              alt=""
+            />
+            <div class="text d-inline-block ms-3">
+              <h1 class="mb-0">Weather</h1>
+              <small class="fs-6 mb-0">tagline goes here</small>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler text-info text-bg-info border-info"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto my-2 mb-lg-0">
+              <li class="nav-item custom-nav-item mb-sm-3 px-2 me-3">
+                <a class="rounded-pill" aria-current="page" href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item custom-nav-item mb-sm-3 px-2 me-3">
+                <a class="rounded-pill" href="#">News</a>
+              </li>
+              <li class="nav-item custom-nav-item px-2 mb-sm-3 me-3">
+                <a class="rounded-pill" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item custom-nav-item mb-sm-3 px-2">
+                <a class="activated rounded-pill" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="fram mt-5 pt-5 h-100 w-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!…"
+                class="h-75 w-75"
+                style="border: 0"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contactus">
+              <div class="text-white my-2">
+                <h1>Contact us</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Commodi consectetur inventore ducimus, facilis, numquam id
+                  soluta omnis eius recusandae nesciunt vero repellat harum cum.
+                  Nisi facilis odit hic, ipsum sed!
+                </p>
+              </div>
+              <form id="contact">
+                <input
+                  type="text"
+                  placeholder="Your name..."
+                  class="form-control rounded-pill p-2 mb-2 me-2 px-3"
+                />
+                <input
+                  type="email"
+                  placeholder="EmailAdress.."
+                  class="form-control rounded-pill p-2 mb-2 ms-2 px-3"
+                />
+                <input
+                  type="text"
+                  placeholder="Company name..."
+                  class="form-control rounded-pill p-2 mb-2 me-2 px-3"
+                />
+                <input
+                  type="text"
+                  placeholder="Website...."
+                  class="form-control rounded-pill p-2 mb-2 ms-2 px-3"
+                />
+                <textarea
+                  class="form-control rounded-5"
+                  placeholder="Message...."
+                  rows="8"
+                ></textarea>
+                <div class="text-end my-2">
+                  <input
+                    type="button"
+                    class="btn btn-primary mt-3 rounded-3 w-25"
+                    value="Submit"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark bg-opacity-75 fixed-bottom">
+      <div class="d-flex justify-content-around">
+        <p class="text-white">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+        <ul class="text-light list-unstyled d-flex">
+          <li class="mx-2 fs-5">
+            <a href="http://facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li class="mx-2 fs-5">
+            <a href="http://twitter.com" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li class="mx-2 fs-5">
+            <a href="http://google.com" target="_blank"
+              ><i class="fa-brands fa-google"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
