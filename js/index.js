@@ -48,7 +48,7 @@ if (localStorage.getItem("key") == null) {
 
 async function displayData(code = "cairo") {
   httpUrl = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=9868a68e1d8c4ba7947200831231802&q=${code}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=9868a68e1d8c4ba7947200831231802&q=${code}&days=3`
   );
   httpUrlRespons = await httpUrl.json();
   console.log(httpUrlRespons)
@@ -164,7 +164,7 @@ async function displayData(code = "cairo") {
 
 async function searchCountry(term) {
   var preSearch = await fetch(
-    `http://api.weatherapi.com/v1/search.json?key=9868a68e1d8c4ba7947200831231802&q=${term}`
+    `https://api.weatherapi.com/v1/search.json?key=9868a68e1d8c4ba7947200831231802&q=${term}`
   );
   var finalSearch = await preSearch.json();
   var findTerm = finalSearch[0].name;
